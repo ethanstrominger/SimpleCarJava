@@ -13,4 +13,9 @@ public class Cars {
     public static Car getById(String id) {
         return Cars.inventory.get(id);
     }
+
+    public static Hashtable<String, Car> getByColor(String color) {
+        Hashtable<String, Car> list = new Hashtable<>();
+        return list;
+    }
 }
