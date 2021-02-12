@@ -1,13 +1,13 @@
 Maintain a list of cars and their ID, make, model, and color.
 
 TO DO:
-- Refactor: ID is not currently thread-safe - consider Java UID function
 - Test 2: I can get a specific car by ID.
 - Test 3: I can get a list of cars that match a certain criteria.
 - Test 4: I can delete a car by ID.
 
 ----------------------------------
 DONE:
+- Refactor: ID is not currently thread-safe - consider Java UID function
 - Test 1a: When you create a second car, it uses a different id
 - Test 1: I can create a car.
 ----------------------------------
