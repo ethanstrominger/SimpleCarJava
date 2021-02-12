@@ -10,16 +10,10 @@ import static org.junit.jupiter.api.Assertions.*;
 public class CarTest {
 
     @Test
-    void newCar() {
-        Car car = new Car();
-        assertTrue(car.id > 0);
-    }
-
-    @Test
-    void secondCar() {
+    void testCarIdsAreUnique() {
         Car car1 = new Car();
         Car car2 = new Car();
         assertNotEquals(car1.id, car2.id);
     }
-};
+}
 

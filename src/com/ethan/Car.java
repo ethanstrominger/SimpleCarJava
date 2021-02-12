@@ -1,12 +1,12 @@
 package com.ethan;
 
-public class Car {
-    static int counter = 1;
+import java.util.UUID;
 
-    public int id;
+public class Car {
+    public String id;
 
     public Car() {
-        this.id = counter;
-        counter++;
+        this.id = UUID.randomUUID().toString();
     }
 }
+

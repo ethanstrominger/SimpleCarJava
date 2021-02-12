@@ -13,7 +13,7 @@ DONE:
 ----------------------------------
 RETRO IMPROVEMENTS:
 - Better keyboard situation? (Control Mac from PC better)
-- Try diff video tool (not Zoom) - latency? keyboard?
+- Try AnyDesk - latency? keyboard?
 - Try shorter rotations (< 5 min - experiment) or finish full TDD cycle
 - Try retros every 20 min
 - Use Git & commit every TDD cycle (later: push)
