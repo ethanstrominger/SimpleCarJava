@@ -16,6 +16,10 @@ public class Cars {
 
     public static Hashtable<String, Car> getByColor(String color) {
         Hashtable<String, Car> list = new Hashtable<>();
+        for(Entry<String, String> entry1 : entrySet) {
+            System.out.println("Country : "  + entry1.getKey()
+                    + "\t\t President : "  + entry1.getValue());
+        }
         list.put("xyz", new Car("red"));
         return list;
     }
