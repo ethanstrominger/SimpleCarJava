@@ -1,5 +1,6 @@
 package com.ethan;
 
+import java.util.Enumeration;
 import java.util.Hashtable;
 
 public class Cars {
@@ -16,9 +17,12 @@ public class Cars {
 
     public static Hashtable<String, Car> getByColor(String color) {
         Hashtable<String, Car> list = new Hashtable<>();
-        for(Entry<String, String> entry1 : entrySet) {
-            System.out.println("Country : "  + entry1.getKey()
-                    + "\t\t President : "  + entry1.getValue());
+        Enumeration<String> enumeration = inventory.keys();
+
+        // iterate using enumeration object
+        while(enumeration.hasMoreElements()) {
+            String key = enumeration.nextElement();
+            Car car = inventory.get(key);
         }
         list.put("xyz", new Car("red"));
         return list;
