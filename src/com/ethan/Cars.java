@@ -16,6 +16,7 @@ public class Cars {
 
     public static Hashtable<String, Car> getByColor(String color) {
         Hashtable<String, Car> list = new Hashtable<>();
+        list.put("xyz", new Car("red"));
         return list;
     }
 }
