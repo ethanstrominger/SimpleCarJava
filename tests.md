@@ -2,6 +2,7 @@ Maintain a list of cars and their ID, make, model, and color.
 
 TO DO:
 - Test 3: I can get a list of cars that match a certain criteria.
+     - NEXT: need to clean up testGetRedCar method
 - Test 4: I can delete a car by ID.
 - This is a test this is much better
 ----------------------------------

@@ -3,7 +3,7 @@ package com.ethan;
 import java.util.UUID;
 
 public class Car {
-    private final String color;
+    public final String color;
     public String id;
 
 

@@ -19,12 +19,13 @@ public class Cars {
         Hashtable<String, Car> list = new Hashtable<>();
         Enumeration<String> enumeration = inventory.keys();
 
-        // iterate using enumeration object
         while(enumeration.hasMoreElements()) {
             String key = enumeration.nextElement();
             Car car = inventory.get(key);
+            if (car.color == color) {
+                list.put(key, car);
+            }
         }
-        list.put("xyz", new Car("red"));
         return list;
     }
 }
