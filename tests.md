@@ -33,6 +33,7 @@ Before Coding:
 
 - Review: (1) Previous Retro, (2) TDD steps (see details below) 
 - Set Timers for (1) Retros (recurring), (2) Break, (3) Mob Timer (https://mobti.me/calm-harp)
+- Have co-author string ready: Co-authored-by: ethanstrominger2@gmail.com or Co-authored-by: jcsilbermam@gmail.com
 
 TDD Cycles:
 
