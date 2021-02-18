@@ -1,16 +1,16 @@
 Maintain a list of cars and their ID, make, model, and color.
 
 TO DO:
-- AnyDesk remote control: Compare AnyDesk to Zoom - latency? keyboard?
-  *** Do Zoom first, then Any Desk ***
-  *** Try copy-paste, etc., speed of typing, highlighting with mouse ***
 - Test 3: I can get a list of cars that match a certain criteria.
     *** On first commit: Add Joel as a co-author ***
 - Use both Joel's and Ethan's computers - just get from Git before drive each time
 - Test 4: I can delete a car by ID.
-
+- This is a test this is much better
 ----------------------------------
 DONE:
+- (not a feature) AnyDesk remote control: Compare AnyDesk to Zoom - latency? keyboard?
+  *** Do Zoom first, then Any Desk ***
+  *** Try copy-paste, etc., speed of typing, highlighting with mouse ***
 - Test 2: I can get a specific car by ID.
 - Refactor: ID is not currently thread-safe - consider Java UID function
 - Test 1a: When you create a second car, it uses a different id
