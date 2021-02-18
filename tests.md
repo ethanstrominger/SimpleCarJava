@@ -17,28 +17,48 @@ DONE:
 - Test 1: I can create a car.
 ----------------------------------
 RETRO IMPROVEMENTS:
-- Rotate on green (after red-green or after refactor-commit) (mob timer 5 min. as backup max. time) 
-- Try retros every 30 min (timer loops every 35 min)
+- Try retros every 30 min (timer loops every 35 min) - even if not coding
+- Ethan have snack and water on hand before meeting
+- Start the project within 5 minutes of session start time. 
+    - Prefer to start with a coding task and get through red-green-refactor (full cycle)
+    - Arrange times to talk about outside projects, etc. (e.g., Reach for Help)
 
 GOOD / keep doing: 
-- Added TDD pre-step: Determine the simplest requirement to move forward
-- Got tests done; did TDD (all steps), took turns
-- Discussed expectations in beginning
-- Expected complexity
+- 2/18/2021:
+    - Not using Zoom remote control
+    - Using GitHub and typing on own computer
+    - AnyDesk (Ethan likes it)
+    - Alt-drag mouse works to select vertically in a file
+    - Rotate on green (after red-green or after refactor-commit) (mob timer 5 min. as backup max. time)
+    - Using google for syntax and taking the simplest one
+- 2/4/2021:
+    - Added TDD pre-step: Determine the simplest requirement to move forward
+    - Got tests done; did TDD (all steps), took turns
+    - Discussed expectations in beginning
+    - Expected complexity
 ----------------------------------
+BEFORE MEETING
+
+- Have snack and water on hand before meeting (if will need)
 
 AGENDA (during meeting)
 
-Before Coding:
+Before Starting Project:
 
 - Review: 
   (1) Previous Retro
   (2) TDD steps (see details below) 
+  
 - Set Timers for
   (1) Retros (recurring)
   (2) Break
   (3) Mob Timer (https://mobti.me/arrested-egg)
+
 - Have co-author string ready: Co-authored-by: ethanstrominger2@gmail.com or Co-authored-by: jcsilbermam@gmail.com
+
+- Start the project within 5 minutes of session start time.
+    - Prefer to start with a coding task and get through red-green-refactor (full cycle)
+    - Arrange times to talk about outside projects, etc. (e.g., Reach for Help)
 
 TDD Cycles:
 
