@@ -2,6 +2,7 @@ Maintain a list of cars and their ID, make, model, and color.
 
 TO DO:
 - (EVERY TIME: Review previous retro at beginning of each session)
+- Add Joel as a co-author
 - Use both Joel's and Ethan's computers - just get from Git before drive each time
 - Test 3: I can get a list of cars that match a certain criteria.
 - Test 4: I can delete a car by ID.
