@@ -81,7 +81,8 @@ Agreements (evolve as needed):
 IntelliJ Shortcuts:
 
 - Double Shift - Search Everywhere in IntelliJ
-
+- Ctrl+K - Commit
+- Shift+F10 - Run All (in SimpleCarJava)
 
 End of Session:
 
