@@ -40,24 +40,27 @@ public class CarTest {
 
     @Test
     void testGetBlueCar() {
-        Car car1 = new Car("red");
-        Car car2 = new Car("blue");
-        Car car3 = new Car("blue");
+        String blue = "blue";
+        String red = "red";
+        Car car1 = new Car(red);
+        Car car2 = new Car(blue);
+        Car car3 = new Car(blue);
 
-        Hashtable<String, Car> blueCars = Cars.getByColor("blue");
-        assertEquals(2, blueCars.size());
+        assertCarsInInventory(blue, 2);
+        assertCarsInInventory(red, 1);
+    }
+
+    private void assertCarsInInventory(String color, int expectedCount) {
+        Hashtable<String, Car> blueCars = Cars.getByColor(color);
+        assertEquals(expectedCount, blueCars.size());
 
         Enumeration<String> enumeration = blueCars.keys();
 
         while(enumeration.hasMoreElements()) {
             String key = enumeration.nextElement();
             Car car = blueCars.get(key);
-            assertEquals("blue", car.color);
+            assertEquals(color, car.color);
         }
-
-        Hashtable<String, Car> redCars = Cars.getByColor("red");
-        assertEquals(1, redCars.size());
-
     }
 }
 
