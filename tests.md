@@ -2,7 +2,6 @@ Maintain a list of cars and their ID, make, model, and color.
 
 TO DO:
 - Test 4: I can delete a car by ID.
-- Figure out how Ethan can right-click remotely
 - Refactor Hashtable loops
 - Clean up this document (rename, TOC,...)
 ----------------------------------
