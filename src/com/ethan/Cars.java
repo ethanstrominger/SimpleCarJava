@@ -2,6 +2,7 @@ package com.ethan;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
+import java.util.Objects;
 
 public class Cars {
 
@@ -22,10 +23,14 @@ public class Cars {
         while(enumeration.hasMoreElements()) {
             String key = enumeration.nextElement();
             Car car = inventory.get(key);
-            if (car.color == color) {
+            if (Objects.equals(car.color, color)) {
                 list.put(key, car);
             }
         }
         return list;
+    }
+
+    public static Hashtable<String, Car> getInventory() {
+        return inventory;
     }
 }

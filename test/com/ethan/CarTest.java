@@ -25,10 +25,12 @@ public class CarTest {
 
     @Test
     void testAddCar() {
-        // todo: 1. retro, 2. continue refactor: just add one car... then once working use add method everywhere in test...
         Car car1 = new Car("red");
         Car car2 = new Car("red");
-        assertNotEquals(car1.id, car2.id);
+        Cars.add(car1);
+        Cars.add(car2);
+        Hashtable<String, Car> carList = Cars.getInventory();
+        assertEquals(2, carList.size());
     }
 
     @Test
@@ -42,6 +44,8 @@ public class CarTest {
     void testCanGetCarById() {
         Car car1 = new Car("red");
         Car car2 = new Car("red");
+        Cars.add(car1);
+        Cars.add(car2);
         assertEquals(car1, Cars.getById(car1.id));
         assertEquals(car2, Cars.getById(car2.id));
     }
@@ -50,9 +54,9 @@ public class CarTest {
     void testGetBlueCar() {
         String blue = "blue";
         String red = "red";
-        Car car1 = new Car(red);
-        Car car2 = new Car(blue);
-        Car car3 = new Car(blue);
+        Cars.add(new Car(red));
+        Cars.add(new Car(blue));
+        Cars.add(new Car(blue));
 
         assertCarsInInventory(blue, 2);
         assertCarsInInventory(red, 1);
