@@ -4,7 +4,7 @@ TO DO:
 - Test 4: I can delete a car by ID.
 - Figure out how Ethan can right-click remotely
 - Refactor Hashtable loops
-- This is a test this is much better
+- Clean up this document (rename, TOC,...)
 ----------------------------------
 DONE:
 - Test 3: I can get a list of cars that match a specific color.
@@ -19,6 +19,8 @@ DONE:
 ----------------------------------
 RETRO IMPROVEMENTS:
 - 2/25/2021
+  - Stand every rotation (optionally stand while navigating) 
+    (Help manage energy level in meeting)
   - Figure out how Ethan can right-click remotely
   - Ethan: Turn off Slack
 
@@ -51,6 +53,7 @@ BEFORE MEETING
 
 - Have snack and water on hand before meeting (if will need)
 - Ethan: Turn off Slack
+- Discuss staying alert (snacks, standing,...)
 
 AGENDA (during meeting)
 
@@ -88,7 +91,9 @@ Agreements (evolve as needed):
 - Code by intent – let the tool create classes, variables, etc.
 - Bias toward action - let people try things rather than having long debates and speculation; if needed, try it multiple ways and see how it works; always get at least one test done and working at every meeting as a bare minimum (full cycle of red-green-refactor, etc.)
 - Retrospectives - after every _30_ minutes on what we learned & liked, and proposed changes (e.g., modifying agreements, processes, etc., as appropriate) (remember to set recurring timer)
-- Rotations – rotate roles (driver, navigator, etc.) - after each green (red-green or refactor-commit) up to a max of _5_ minutes 
+- Rotations 
+    – Rotate roles (driver, navigator, etc.) - after each green (red-green or refactor-commit) up to a max of _5_ minutes
+    - Stand every rotation (optionally stand while navigating)
 - Breaks – e.g., every _60_ min. (+/-) (remember to set timer)
 
 
