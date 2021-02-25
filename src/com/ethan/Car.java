@@ -10,7 +10,6 @@ public class Car {
     public Car(String color) {
         this.color = color;
         this.id = UUID.randomUUID().toString();
-        Cars.add(this);
     }
 
 

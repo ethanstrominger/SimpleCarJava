@@ -24,6 +24,14 @@ public class CarTest {
     }
 
     @Test
+    void testAddCar() {
+        // todo: 1. retro, 2. continue refactor: just add one car... then once working use add method everywhere in test...
+        Car car1 = new Car("red");
+        Car car2 = new Car("red");
+        assertNotEquals(car1.id, car2.id);
+    }
+
+    @Test
     void testCarIdsAreUnique() {
         Car car1 = new Car("red");
         Car car2 = new Car("red");

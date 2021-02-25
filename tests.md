@@ -1,6 +1,7 @@
 Maintain a list of cars and their ID, make, model, and color.
 
 TO DO:
+- Figure out how Ethan can right-click remotely
 - Test 3: I can get a list of cars that match a certain criteria.
      - NEXT: need to clean up testGetRedCar method
 - Test 4: I can delete a car by ID.
@@ -17,13 +18,22 @@ DONE:
 - Test 1: I can create a car.
 ----------------------------------
 RETRO IMPROVEMENTS:
-- Try retros every 30 min (timer loops every 35 min) - even if not coding
-- Ethan have snack and water on hand before meeting
-- Start the project within 5 minutes of session start time. 
-    - Prefer to start with a coding task and get through red-green-refactor (full cycle)
-    - Arrange times to talk about outside projects, etc. (e.g., Reach for Help)
+- 2/25/2021
+  - Figure out how Ethan can right-click remotely
+  - Ethan: Turn off Slack
+
+- 2/18/2021:
+  - Try retros every 30 min (timer loops every 35 min) - even if not coding
+  - Ethan have snack and water on hand before meeting
+  - Start the project within 5 minutes of session start time. 
+      - Prefer to start with a coding task and get through red-green-refactor (full cycle)
+      - Arrange times to talk about outside projects, etc. (e.g., Reach for Help)
 
 GOOD / keep doing: 
+- 2/25/2021:
+    - Snack
+    - Notes for what to do at start of meeting
+    - Mob timer & switching every 5 min. 
 - 2/18/2021:
     - Not using Zoom remote control
     - Using GitHub and typing on own computer
@@ -40,6 +50,7 @@ GOOD / keep doing:
 BEFORE MEETING
 
 - Have snack and water on hand before meeting (if will need)
+- Ethan: Turn off Slack
 
 AGENDA (during meeting)
 
