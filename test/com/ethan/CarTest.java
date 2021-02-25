@@ -6,6 +6,7 @@ package com.ethan;
 
 import org.junit.jupiter.api.*;
 
+import java.util.Enumeration;
 import java.util.Hashtable;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -38,14 +39,25 @@ public class CarTest {
     }
 
     @Test
-    void testGetRedCar() {
+    void testGetBlueCar() {
         Car car1 = new Car("red");
         Car car2 = new Car("blue");
         Car car3 = new Car("blue");
+
+        Hashtable<String, Car> blueCars = Cars.getByColor("blue");
+        assertEquals(2, blueCars.size());
+
+        Enumeration<String> enumeration = blueCars.keys();
+
+        while(enumeration.hasMoreElements()) {
+            String key = enumeration.nextElement();
+            Car car = blueCars.get(key);
+            assertEquals("blue", car.color);
+        }
+
         Hashtable<String, Car> redCars = Cars.getByColor("red");
         assertEquals(1, redCars.size());
+
     }
-
-
 }
 
