@@ -62,6 +62,17 @@ public class CarTest {
         assertCarsInInventory(red, 1);
     }
 
+    @Test
+    void testDeleteCarById() {
+        Car car1 = new Car("red");
+        Car car2 = new Car("red");
+        Cars.add(car1);
+        Cars.add(car2);
+        assertEquals(2, Cars.getInventory().size());
+        Cars.deleteById(car1.id);
+        assertEquals(1,Cars.getInventory().size());
+    }
+
     private void assertCarsInInventory(String color, int expectedCount) {
         Hashtable<String, Car> blueCars = Cars.getByColor(color);
         assertEquals(expectedCount, blueCars.size());

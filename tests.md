@@ -1,13 +1,13 @@
 Maintain a list of cars and their ID, make, model, and color.
 
 TO DO:
-- Figure out how Ethan can right-click remotely
-- Test 3: I can get a list of cars that match a certain criteria.
-     - NEXT: need to clean up testGetRedCar method
 - Test 4: I can delete a car by ID.
+- Figure out how Ethan can right-click remotely
+- Refactor Hashtable loops
 - This is a test this is much better
 ----------------------------------
 DONE:
+- Test 3: I can get a list of cars that match a specific color.
 - (not a feature) AnyDesk remote control: Compare AnyDesk to Zoom - latency? keyboard?
   *** Do Zoom first, then Any Desk ***
   *** Try copy-paste, etc., speed of typing, highlighting with mouse ***

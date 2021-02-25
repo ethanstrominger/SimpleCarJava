@@ -33,4 +33,8 @@ public class Cars {
     public static Hashtable<String, Car> getInventory() {
         return inventory;
     }
+
+    public static void deleteById(String id) {
+        // todo: implement
+    }
 }
