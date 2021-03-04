@@ -1,10 +1,71 @@
 Maintain a list of cars and their ID, make, model, and color.
+----------------------------------
+File 1: Meeting/Agenda
+BEFORE MEETING
 
+- Have snack and water on hand before meeting (if will need)
+- Ethan: Turn off Slack
+- Discuss staying alert (snacks, standing,...)
+
+AGENDA (during meeting)
+
+Before Starting Project:
+
+- Review:
+  (1) Previous Retro
+  (2) TDD steps (see details below)
+
+- Set Timers for
+  (1) Retros (recurring)
+  (2) Break
+  (3) Mob Timer (https://mobti.me/arrested-egg)
+
+- Have co-author string ready:
+  ``
+  Co-authored-by: Ethan Strominger <ethanstrominger@gmail.com>
+  or
+  Co-authored-by: Joel Silberman <jcsilbermam@gmail.com>
+  ``
+- Start the project within 5 minutes of session start time.
+  - Prefer to start with a coding task and get through red-green-refactor (full cycle)
+  - Arrange times to talk about outside projects, etc. (e.g., Reach for Help)
+
+TDD Cycles:
+
+- Requirement - determine the simplest requirement to move forward
+- Red - write a failing test
+- Green – write the simplest code to pass
+- Commit – save to local repository
+- Refactor - improve the code without changing or introducing new behavior (or explicitly state if you don't see anything to refactor)
+- Commit and Push – save to remote common repository
+
+Agreements (evolve as needed):
+
+- Code by intent – let the tool create classes, variables, etc.
+- Bias toward action - let people try things rather than having long debates and speculation; if needed, try it multiple ways and see how it works; always get at least one test done and working at every meeting as a bare minimum (full cycle of red-green-refactor, etc.)
+- Retrospectives - after every _30_ minutes on what we learned & liked, and proposed changes (e.g., modifying agreements, processes, etc., as appropriate) (remember to set recurring timer)
+- Rotations
+  – Rotate roles (driver, navigator, etc.) - after each green (red-green or refactor-commit) up to a max of _5_ minutes
+  - Stand every rotation (optionally stand while navigating)
+- Breaks – e.g., every _60_ min. (+/-) (remember to set timer)
+
+
+IntelliJ Shortcuts:
+
+- Double Shift - Search Everywhere in IntelliJ
+- Ctrl+K - Commit
+- Shift+F10 - Run All (in SimpleCarJava)
+
+End of Session:
+
+- Commit & Push - so everyone has the latest code before leave
+----------------------------------
+File 2: 
 TO DO:
-- Add readme
+- Switch to JavaScript project (and copy this stuff there)
+- Clean up this document - split into File 1, File 2,...
 - Add license
 - Refactor Hashtable loops
-- Clean up this document (rename, TOC,...)
 ----------------------------------
 DONE:
 - Test 4: I can delete a car by ID.
@@ -18,6 +79,7 @@ DONE:
 - Test 1a: When you create a second car, it uses a different id
 - Test 1: I can create a car.
 ----------------------------------
+File 3: Retro History
 RETRO IMPROVEMENTS:
 - 2/25/2021
   - Stand every rotation (optionally stand while navigating) 
@@ -50,61 +112,3 @@ GOOD / keep doing:
     - Discussed expectations in beginning
     - Expected complexity
 ----------------------------------
-BEFORE MEETING
-
-- Have snack and water on hand before meeting (if will need)
-- Ethan: Turn off Slack
-- Discuss staying alert (snacks, standing,...)
-
-AGENDA (during meeting)
-
-Before Starting Project:
-
-- Review: 
-  (1) Previous Retro
-  (2) TDD steps (see details below) 
-  
-- Set Timers for
-  (1) Retros (recurring)
-  (2) Break
-  (3) Mob Timer (https://mobti.me/arrested-egg)
-
-- Have co-author string ready:
-   ``
-    Co-authored-by: Ethan Strominger <ethanstrominger@gmail.com> 
-    or 
-    Co-authored-by: Joel Silberman <jcsilbermam@gmail.com>
-    ``
-- Start the project within 5 minutes of session start time.
-    - Prefer to start with a coding task and get through red-green-refactor (full cycle)
-    - Arrange times to talk about outside projects, etc. (e.g., Reach for Help)
-
-TDD Cycles:
-
-- Requirement - determine the simplest requirement to move forward 
-- Red - write a failing test
-- Green – write the simplest code to pass
-- Commit – save to local repository
-- Refactor - improve the code without changing or introducing new behavior (or explicitly state if you don't see anything to refactor) 
-- Commit and Push – save to remote common repository 
-
-Agreements (evolve as needed):
-
-- Code by intent – let the tool create classes, variables, etc.
-- Bias toward action - let people try things rather than having long debates and speculation; if needed, try it multiple ways and see how it works; always get at least one test done and working at every meeting as a bare minimum (full cycle of red-green-refactor, etc.)
-- Retrospectives - after every _30_ minutes on what we learned & liked, and proposed changes (e.g., modifying agreements, processes, etc., as appropriate) (remember to set recurring timer)
-- Rotations 
-    – Rotate roles (driver, navigator, etc.) - after each green (red-green or refactor-commit) up to a max of _5_ minutes
-    - Stand every rotation (optionally stand while navigating)
-- Breaks – e.g., every _60_ min. (+/-) (remember to set timer)
-
-
-IntelliJ Shortcuts:
-
-- Double Shift - Search Everywhere in IntelliJ
-- Ctrl+K - Commit
-- Shift+F10 - Run All (in SimpleCarJava)
-
-End of Session:
-
-- Commit & Push - so everyone has the latest code before leave
