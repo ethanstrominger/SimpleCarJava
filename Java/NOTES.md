@@ -65,8 +65,9 @@ File 2:
 TO DO:
 - Time how much time we're coding & try to increase
 - Switch to JavaScript project (and copy this stuff there)
-- Clean up this document - split into File 1, File 2,...
-- Modify mob timer to add TTS ("stand" reminder, etc.)
+- Clean up this document - split into File 1, File 2,... 
+- Modify mob timer source code to add "stand" reminder (1) text, (2) text to speech (TTS) 
+  [and consider other improvements]
 - Add license
 - Refactor Hashtable loops
 ----------------------------------
