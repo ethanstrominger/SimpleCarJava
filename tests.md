@@ -1,11 +1,11 @@
 Maintain a list of cars and their ID, make, model, and color.
 
 TO DO:
-- Test 4: I can delete a car by ID.
 - Refactor Hashtable loops
 - Clean up this document (rename, TOC,...)
 ----------------------------------
 DONE:
+- Test 4: I can delete a car by ID.
 - Test 3: I can get a list of cars that match a specific color.
 - (not a feature) AnyDesk remote control: Compare AnyDesk to Zoom - latency? keyboard?
   *** Do Zoom first, then Any Desk ***
