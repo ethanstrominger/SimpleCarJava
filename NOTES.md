@@ -1,6 +1,8 @@
 Maintain a list of cars and their ID, make, model, and color.
 
 TO DO:
+- Add readme
+- Add license
 - Refactor Hashtable loops
 - Clean up this document (rename, TOC,...)
 ----------------------------------
