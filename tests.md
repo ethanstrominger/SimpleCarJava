@@ -68,10 +68,11 @@ Before Starting Project:
   (3) Mob Timer (https://mobti.me/arrested-egg)
 
 - Have co-author string ready:
+   ``
     Co-authored-by: Ethan Strominger <ethanstrominger@gmail.com> 
     or 
     Co-authored-by: Joel Silberman <jcsilbermam@gmail.com>
-
+    ``
 - Start the project within 5 minutes of session start time.
     - Prefer to start with a coding task and get through red-green-refactor (full cycle)
     - Arrange times to talk about outside projects, etc. (e.g., Reach for Help)
