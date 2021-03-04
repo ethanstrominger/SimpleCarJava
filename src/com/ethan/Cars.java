@@ -12,8 +12,16 @@ public class Cars {
         Cars.inventory.put(car.id, car);
     }
 
+    public static void deleteById(String id) {
+        inventory.remove(id);
+    }
+
     public static Car getById(String id) {
         return Cars.inventory.get(id);
+    }
+
+    public static Hashtable<String, Car> getInventory() {
+        return inventory;
     }
 
     public static Hashtable<String, Car> getByColor(String color) {
@@ -28,13 +36,5 @@ public class Cars {
             }
         }
         return list;
-    }
-
-    public static Hashtable<String, Car> getInventory() {
-        return inventory;
-    }
-
-    public static void deleteById(String id) {
-        inventory.remove(id);
     }
 }
