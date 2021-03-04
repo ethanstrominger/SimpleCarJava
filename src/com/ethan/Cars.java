@@ -35,6 +35,6 @@ public class Cars {
     }
 
     public static void deleteById(String id) {
-        // todo: implement
+        inventory.remove(id);
     }
 }

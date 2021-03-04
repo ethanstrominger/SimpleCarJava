@@ -71,6 +71,8 @@ public class CarTest {
         assertEquals(2, Cars.getInventory().size());
         Cars.deleteById(car1.id);
         assertEquals(1,Cars.getInventory().size());
+        assertNull(Cars.getById(car1.id));
+        assertEquals(car2, Cars.getById(car2.id));
     }
 
     private void assertCarsInInventory(String color, int expectedCount) {
