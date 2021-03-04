@@ -58,8 +58,8 @@ public class CarTest {
         Cars.add(new Car(blue));
         Cars.add(new Car(blue));
 
-        assertCarsInInventory(blue, 2);
-        assertCarsInInventory(red, 1);
+        assertCarsWithColorInInventory(blue, 2);
+        assertCarsWithColorInInventory(red, 1);
     }
 
     @Test
@@ -75,7 +75,7 @@ public class CarTest {
         assertEquals(car2, Cars.getById(car2.id));
     }
 
-    private void assertCarsInInventory(String color, int expectedCount) {
+    private void assertCarsWithColorInInventory(String color, int expectedCount) {
         Hashtable<String, Car> blueCars = Cars.getByColor(color);
         assertEquals(expectedCount, blueCars.size());
 
