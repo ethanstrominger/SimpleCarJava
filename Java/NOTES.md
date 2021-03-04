@@ -12,23 +12,24 @@ AGENDA (during meeting)
 Before Starting Project:
 
 - Review:
-  (1) Previous Retro
+  (1) Previous Retro 
   (2) TDD steps (see details below)
 
 - Set Timers for
   (1) Retros (recurring)
   (2) Break
-  (3) Mob Timer (https://mobti.me/arrested-egg)
+  (3) Mob Timer (https://mobti.me/arrested-egg) (edit Navigator to say "Navigator (Stand)")
 
 - Have co-author string ready:
-  ``
-  Co-authored-by: Ethan Strominger <ethanstrominger@gmail.com>
-  or
-  Co-authored-by: Joel Silberman <jcsilbermam@gmail.com>
-  ``
+        ``
+        Co-authored-by: Ethan Strominger <ethanstrominger@gmail.com>
+        or
+        Co-authored-by: Joel Silberman <jcsilbermam@gmail.com>
+        ``
 - Start the project within 5 minutes of session start time.
   - Prefer to start with a coding task and get through red-green-refactor (full cycle)
   - Arrange times to talk about outside projects, etc. (e.g., Reach for Help)
+  - Be prepared to time how much time we're coding & try to increase
 
 TDD Cycles:
 
@@ -62,8 +63,10 @@ End of Session:
 ----------------------------------
 File 2: 
 TO DO:
+- Time how much time we're coding & try to increase
 - Switch to JavaScript project (and copy this stuff there)
 - Clean up this document - split into File 1, File 2,...
+- Modify mob timer to add TTS ("stand" reminder, etc.)
 - Add license
 - Refactor Hashtable loops
 ----------------------------------
@@ -81,6 +84,9 @@ DONE:
 ----------------------------------
 File 3: Retro History
 RETRO IMPROVEMENTS:
+- 3/24/2021:
+  - time how much time we're coding & try to increase
+  - later: ideas - modify mob timer to add TTS ("stand" reminder, etc.)
 - 2/25/2021
   - Stand every rotation (optionally stand while navigating) 
     (Help manage energy level in meeting)
@@ -95,6 +101,10 @@ RETRO IMPROVEMENTS:
       - Arrange times to talk about outside projects, etc. (e.g., Reach for Help)
 
 GOOD / keep doing: 
+- 3/24/2021:
+  - standing (and adding "stand" to the mob timer for navigator)
+  - finished Java car project and set up start of JavaScript project, and consolidated into single repository
+  - snacks
 - 2/25/2021:
     - Snack
     - Notes for what to do at start of meeting
