@@ -26,7 +26,7 @@ Before Starting Project:
         or
         Co-authored-by: Joel Silberman <jcsilbermam@gmail.com>
         ``
-- Start the project within 5 minutes of session start time.
+- Start reviewing this doc within 5 min. of session start time and coding within 10-15 min.
   - Prefer to start with a coding task and get through red-green-refactor (full cycle)
   - Arrange times to talk about outside projects, etc. (e.g., Reach for Help)
   - Be prepared to time how much time we're coding & try to increase
