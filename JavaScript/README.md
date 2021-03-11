@@ -1,0 +1,1 @@
+This project is a warm-up project to get familiar with JavaScript.
