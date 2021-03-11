@@ -16,10 +16,12 @@ Before Starting Project:
   (2) TDD steps (see details below)
 
 - Set Timers for
-  (1) Retros (recurring)
-  (2) Break
-  (3) Mob Timer (https://mobti.me/arrested-egg) (edit Navigator to say "Navigator (Stand)")
-
+  (1) Mob Timer (https://mobti.me/arrested-egg) (edit Navigator to say "Navigator (Stand)")  
+  (2) First Retro (10:10-10:15)
+  (3) Break (10:25-10:35)
+  (4) Final Retro and Next Steps (11:10-11:25)
+  (5) Done (11:29)
+  
 - Have co-author string ready:
         ``
         Co-authored-by: Ethan Strominger <ethanstrominger@gmail.com>
@@ -63,13 +65,24 @@ End of Session:
 ----------------------------------
 File 2: 
 TO DO:
+- Switch to JavaScript project (and copy this stuff there):
+        - Try hello world new js test in Ethan's existing calendar js project
+        - Test 1: I can create a car.
+        - Test 1a: When you create a second car, it uses a different id
+        - Test 2: I can get a specific car by ID.
+        - Test 3: I can get a list of cars that match a specific color.
+        - Test 4: I can delete a car by ID.
+        - Clean up this document (rename, TOC,...)     
+        Future Refactoring:
+        - (Ethan) Figure out how to exclude .idea files
+        - (Joel) Try opening this project in Visual Studio (may require something different)     
+        - (Not Needed / Abandoned - Install ES 6 (Joel's PC) & Resolve GitHub permission issue (Joel - push to Ethan's Simple Car JavaScript - or use Joel's fork))
 - Time how much time we're coding & try to increase
-- Switch to JavaScript project (and copy this stuff there)
 - Clean up this document - split into File 1, File 2,... 
 - Modify mob timer source code to add "stand" reminder (1) text, (2) text to speech (TTS) 
   [and consider other improvements]
 - Add license
-- Refactor Hashtable loops
+- Refactor Java Hashtable loops
 ----------------------------------
 DONE:
 - Test 4: I can delete a car by ID.
@@ -85,9 +98,12 @@ DONE:
 ----------------------------------
 File 3: Retro History
 RETRO IMPROVEMENTS:
-- 3/24/2021:
-  - time how much time we're coding & try to increase
-  - later: ideas - modify mob timer to add TTS ("stand" reminder, etc.)
+- 3/11/2021:
+  - (Some discussion of how to get up and running faster with new JavaScript project; ultimately decided 
+    to just use Ethan's existing calendar js project to do our SimpleCar js sample code next time)
+- 3/4/2021:
+  - Time how much time we're coding & try to increase
+  - Later: ideas - modify mob timer to add TTS ("stand" reminder, etc.)
 - 2/25/2021
   - Stand every rotation (optionally stand while navigating) 
     (Help manage energy level in meeting)
@@ -102,7 +118,13 @@ RETRO IMPROVEMENTS:
       - Arrange times to talk about outside projects, etc. (e.g., Reach for Help)
 
 GOOD / keep doing: 
-- 3/24/2021:
+- 3/11/2021:
+  - Started project quickly
+  - Used cyber-dojo for sample js test code
+  - Set up 3 named timers before meeting (break, retro, wrap-up)
+  - Doing setup in which only one person knew what to do, we still switched off but knowledgable driver just said aloud what doing
+  - Set within-retro timer for 5 min.
+- 3/4/2021:
   - standing (and adding "stand" to the mob timer for navigator)
   - finished Java car project and set up start of JavaScript project, and consolidated into single repository
   - snacks
