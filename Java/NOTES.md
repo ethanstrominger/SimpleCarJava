@@ -6,6 +6,8 @@ BEFORE MEETING
 - Have snack and water on hand before meeting (if will need)
 - Ethan: Turn off Slack
 - Discuss staying alert (snacks, standing,...)
+- Set Ethan's keyboard (for use with Windows remotely)
+- Ethan restart computer before meeting (if still having problems after moving it from floor)
 
 AGENDA (during meeting)
 
