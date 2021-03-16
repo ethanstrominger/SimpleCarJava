@@ -17,11 +17,18 @@ Before Starting Project:
 
 - Set Timers for
   (1) Mob Timer (https://mobti.me/arrested-egg) (edit Navigator to say "Navigator (Stand)")  
-  (2) First Retro (10:10-10:15)
-  (3) Break (10:25-10:35)
-  (4) Final Retro and Next Steps (11:10-11:25)
-  (5) Done (11:29)
-  
+  (2) Agenda Timer(s), e.g., https://www.timeblocks.co/-MVugQnlN9XkoNqc65sx
+          Item	       Len	 Start
+          Welcome	    5	 9:30 AM
+          Review Notes 10	 9:35 AM
+          Coding	   25	 9:45 AM
+          Retro	        5	10:10 AM
+          Coding	   10	10:15 AM
+          Break        10	10:25 AM
+          Coding	   35	10:35 AM
+          Retro+Plan   15	11:10 AM
+          Closing	    5	11:25 AM
+
 - Have co-author string ready:
         ``
         Co-authored-by: Ethan Strominger <ethanstrominger@gmail.com>
