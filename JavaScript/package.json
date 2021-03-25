@@ -1,0 +1,23 @@
+{
+  "name": "ethanjoel",
+  "version": "1.0.0",
+  "description": "This project is a warm-up project to get familiar with JavaScript.",
+  "main": "CarTest.js",
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanstrominger/SimpleCar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanstrominger/SimpleCar/issues"
+  },
+  "homepage": "https://github.com/ethanstrominger/SimpleCar#readme"
+}
